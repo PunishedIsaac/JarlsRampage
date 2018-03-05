@@ -31,7 +31,13 @@ namespace JarlsRampage
             backtrack.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "\\Tribal Ritual.wav";
             backtrack.PlayLooping();
             
-
+            
+            //ASCII game title
+            
+            
+            
+            
+            
             Start:;
             //Naming the character
             Console.WriteLine("What is your name, adventurer?");
