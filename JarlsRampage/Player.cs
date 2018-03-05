@@ -136,7 +136,7 @@ namespace JarlsRampage
                 Console.WriteLine("You roll " + (pAR + AB) + " against "
                     + badman.villainName + "'s armorclass of " + (badman.villainBaseAC + badman.villainArmorAC) +
                     ". You hit " + badman.villainName + " for " + (Damage + wpnRoll) + " damage.");
-                badman.currentHP = badman.villainHp - (Damage+wpnRoll);
+                badman.currentHP = badman.currentHp - (Damage+wpnRoll);
                 Console.WriteLine(badman.villainName + " has " + badman.currentHP + " HP left.");
             }
 
